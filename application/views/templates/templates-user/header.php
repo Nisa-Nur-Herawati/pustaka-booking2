@@ -26,7 +26,7 @@
                     if (!empty($this->session->userdata('email'))) { ?>
                         <a class="nav-item nav-link" href="#">Boking Buku</a>
                 
-                        <a class="nav-item nav-link" href="<? base_url('member/myprofil'); ?>">Profil Saya</a>
+                        <a class="nav-item nav-link" href="<?= base_url('member/myprofil'); ?>">Profil Saya</a>
                         <a class="nav-item nav-link" href="<?= base_url('member/logout'); ?>"><i class="fas fw fa-login"></i>Log Out</a>
                     
                     <?php } else { ?>
